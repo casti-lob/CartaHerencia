@@ -14,6 +14,7 @@ public abstract class Baraja implements Repartible {
 		this.numCartas=numCartas;
 		this.siguiente=0;
 		this.listCarta = new Carta[numCartas];
+		barajar();
 
 	}
 	
@@ -44,8 +45,9 @@ public abstract class Baraja implements Repartible {
 					encontrado=true;
 				}
 			}
-			if(encontrado=false) {
+			if(encontrado==false) {
 				listCarta[numeroCartasBarajadas]=cartaGenerada;
+				numeroCartasBarajadas++;
 			}
 		}
 	}

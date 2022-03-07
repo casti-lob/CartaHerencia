@@ -4,6 +4,7 @@ public class BarajaInglesa extends Baraja {
 	
 	public BarajaInglesa() {
 		super(52);
+		barajar();
 	}
 	
 	@Override

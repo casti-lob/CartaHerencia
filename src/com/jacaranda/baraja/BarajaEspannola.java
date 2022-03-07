@@ -3,7 +3,8 @@ package com.jacaranda.baraja;
 public class BarajaEspannola extends Baraja {
 	
 	public BarajaEspannola() {
-		super(42);
+		super(40);
+		
 	}
 	
 	
